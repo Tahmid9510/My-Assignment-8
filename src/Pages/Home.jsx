@@ -2,10 +2,18 @@ import React from 'react';
 import GooglePlayImg from '../assets/Gplay.png'
 import AppsStoreImg from '../assets/Astore.png'
 import HeroImg from '../assets/hero.png'
+import { Link } from 'react-router';
+import { HiH1 } from 'react-icons/hi2';
+import TrendingAppsCard from '../Components/TrendingAppsCard';
+import useApps from '../hooks/useApps';
 
 const Home = () => {
+    const { apps, loading, error } = useApps()
+    const SliceApps=apps.slice(0, 8)
+
+    // console.log(AppsData);
     return (
-        <div>
+        <div className='bg-gray-100'>
             <section className='Banner my-10'>
                 <div className='text-center'>
                     <p className='font-bold text-5xl my-1.5'>We Build</p>
@@ -21,7 +29,7 @@ const Home = () => {
                 </div>
                 <div className='py-14 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border mt-0 text-white'>
                     <div className='text-center font-semibold text-4xl'><p>Trusted by Millions, Built for You</p></div>
-                    <div className='flex justify-around'>
+                    <div className='md:flex justify-around'>
                         <div className='space-y-3 flex flex-col justify-center items-center'>
                             <p className='text-gray-200 text-[0.7rem]'>Total Downloads</p>
                             <p className='font-extrabold text-6xl'>29.6M</p>
@@ -48,10 +56,21 @@ const Home = () => {
                     <p className='font-bold text-5xl'>Trending Apps</p>
                     <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className='Trending-card'>
-
+                <div className='Trending-card px-5 '>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto my-9'>
+                        {
+                            SliceApps.map(app => (
+                                <TrendingAppsCard key={app.id} app={app}></TrendingAppsCard>
+                            ))
+                        }
+                    </div>
                 </div>
             </section>
+
+            <div className='flex justify-center items-center my-10'>
+
+                <Link to='/Apps'><button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white'>Show All</button></Link>
+            </div>
 
         </div>
     );

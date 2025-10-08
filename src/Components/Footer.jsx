@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 flex justify-between">
+            <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 md:flex justify-between">
                 <nav>
                     <div className='flex'>
                         <img className='size-10' src={logo}alt="logo" />
