@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://picsum.photos/seed/101/200",
+    "title": "Stellar Navigator",
+    "companyName": "Galaxy Apps",
+    "id": 101,
+    "description": "Explore the cosmos with our stunning 3D star map and astronomy guide. Perfect for stargazers of all levels.",
+    "size": 120,
+    "reviews": 45120,
+    "ratingAvg": 4.8,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 470 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 34000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/102/200",
+    "title": "Mindful Moments",
+    "companyName": "Zenith Labs",
+    "id": 102,
+    "description": "A guided meditation and mindfulness app to help you reduce stress, improve focus, and sleep better.",
+    "size": 65,
+    "reviews": 112500,
+    "ratingAvg": 4.9,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 90000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/103/200",
+    "title": "CodeBuddy IDE",
+    "companyName": "DevPoint Inc.",
+    "id": 103,
+    "description": "A powerful mobile-first code editor supporting over 50 languages. Compile and run code on the go.",
+    "size": 95,
+    "reviews": 78300,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/104/200",
+    "title": "KitchenPro Recipes",
+    "companyName": "Flavorful Creations",
+    "id": 104,
+    "description": "Discover thousands of recipes with step-by-step video instructions and a smart shopping list feature.",
+    "size": 88,
+    "reviews": 250450,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 52950 },
+      { "name": "5 star", "count": 175000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/105/200",
+    "title": "AquaTracker",
+    "companyName": "HydroHealth",
+    "id": 105,
+    "description": "Stay hydrated with personalized daily water intake goals and timely reminders throughout your day.",
+    "size": 35,
+    "reviews": 65200,
+    "ratingAvg": 4.5,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/106/200",
+    "title": "PixelFlow Photo Editor",
+    "companyName": "Creative Labs",
+    "id": 106,
+    "description": "A professional photo editor with advanced tools, filters, and effects to make your pictures stand out.",
+    "size": 115,
+    "reviews": 320100,
+    "ratingAvg": 4.4,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 10500 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 179600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/107/200",
+    "title": "Nomad's Compass",
+    "companyName": "Trailblazer Tech",
+    "id": 107,
+    "description": "The ultimate travel companion with offline maps, itinerary planning, and local travel guides.",
+    "size": 150,
+    "reviews": 95000,
+    "ratingAvg": 4.6,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 57000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/108/200",
+    "title": "FitFusion Workouts",
+    "companyName": "Synergy Fitness",
+    "id": 108,
+    "description": "Personalized workout plans and fitness tracking for all levels. Achieve your goals with AI-driven coaching.",
+    "size": 75,
+    "reviews": 180000,
+    "ratingAvg": 4.8,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 128000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/109/200",
+    "title": "Polyglot Language Learner",
+    "companyName": "LinguaVerse",
+    "id": 109,
+    "description": "Learn over 30 languages with interactive lessons, native speaker audio, and speech recognition.",
+    "size": 90,
+    "reviews": 210500,
+    "ratingAvg": 4.7,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 135000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/110/200",
+    "title": "BudgetWise Expense Tracker",
+    "companyName": "FinTech Solutions",
+    "id": 110,
+    "description": "Take control of your finances. Track expenses, create budgets, and get insightful reports effortlessly.",
+    "size": 40,
+    "reviews": 150000,
+    "ratingAvg": 4.8,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 111000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/111/200",
+    "title": "Zenith Weather",
+    "companyName": "AuraSoft",
+    "id": 111,
+    "description": "Hyperlocal weather forecasts with real-time radar and severe weather alerts. Beautiful and easy to use.",
+    "size": 55,
+    "reviews": 450800,
+    "ratingAvg": 4.6,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 274800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/112/200",
+    "title": "QuickScan Document Scanner",
+    "companyName": "Paperless Inc.",
+    "id": 112,
+    "description": "Turn your phone into a powerful portable scanner. Scan, save, and share documents as PDF or JPG.",
+    "size": 60,
+    "reviews": 195000,
+    "ratingAvg": 4.9,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 29000 },
+      { "name": "5 star", "count": 160000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/113/200",
+    "title": "GrooveMaker Beat Producer",
+    "companyName": "AudioVibe Studios",
+    "id": 113,
+    "description": "Create amazing beats and music tracks with a professional drum machine, synthesizer, and sampler.",
+    "size": 130,
+    "reviews": 68000,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/114/200",
+    "title": "PodSphere Podcast Player",
+    "companyName": "SonicStream",
+    "id": 114,
+    "description": "Discover, subscribe, and listen to your favorite podcasts. A simple, clean, and powerful podcast app.",
+    "size": 45,
+    "reviews": 110000,
+    "ratingAvg": 4.7,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 27000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/115/200",
+    "title": "Volt EV Charger Finder",
+    "companyName": "ChargePoint Mobility",
+    "id": 115,
+    "description": "Find and navigate to available electric vehicle charging stations from all major networks.",
+    "size": 80,
+    "reviews": 32000,
+    "ratingAvg": 4.3,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/116/200",
+    "title": "TaskFlow Project Manager",
+    "companyName": "Agile Works",
+    "id": 116,
+    "description": "Organize your team's tasks, projects, and deadlines in one collaborative space. Boost productivity.",
+    "size": 58,
+    "reviews": 89000,
+    "ratingAvg": 4.7,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 6500 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 54000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/117/200",
+    "title": "StoryWeaver AI Writer",
+    "companyName": "Narrative Tech",
+    "id": 117,
+    "description": "Overcome writer's block with an AI-powered writing assistant for stories, scripts, and articles.",
+    "size": 72,
+    "reviews": 25000,
+    "ratingAvg": 4.2,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/118/200",
+    "title": "CryptoFolio Tracker",
+    "companyName": "CoinMetrics Inc.",
+    "id": 118,
+    "description": "Track all your cryptocurrencies in one place. Real-time prices, portfolio analysis, and market news.",
+    "size": 68,
+    "reviews": 130000,
+    "ratingAvg": 4.6,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 75000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/119/200",
+    "title": "HomeChef Meal Planner",
+    "companyName": "Daily Bites",
+    "id": 119,
+    "description": "Plan your weekly meals, generate shopping lists, and discover new recipes tailored to your diet.",
+    "size": 50,
+    "reviews": 72000,
+    "ratingAvg": 4.8,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/120/200",
+    "title": "SketchPad Pro",
+    "companyName": "Artisan Digital",
+    "id": 120,
+    "description": "A professional-grade digital drawing and painting app with a full suite of brushes and tools.",
+    "size": 180,
+    "reviews": 115000,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12500 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 62000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/121/200",
+    "title": "CityRider Transit",
+    "companyName": "Urban Motion",
+    "id": 121,
+    "description": "Real-time public transit schedules, trip planning, and service alerts for buses, trains, and subways.",
+    "size": 95,
+    "reviews": 210000,
+    "ratingAvg": 4.3,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 64000 },
+      { "name": "5 star", "count": 90000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/122/200",
+    "title": "NoteVault Secure Notes",
+    "companyName": "Cipher Safe",
+    "id": 122,
+    "description": "A simple, secure, and encrypted notepad for your private thoughts, passwords, and ideas.",
+    "size": 25,
+    "reviews": 85000,
+    "ratingAvg": 4.9,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 12500 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/123/200",
+    "title": "SkyHigh Drone Pilot",
+    "companyName": "AeroDynamics",
+    "id": 123,
+    "description": "Control your drone, plan automated flight paths, and capture stunning aerial footage with ease.",
+    "size": 110,
+    "reviews": 19000,
+    "ratingAvg": 4.1,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/124/200",
+    "title": "PetPal Pet Care",
+    "companyName": "Furry Friends Inc.",
+    "id": 124,
+    "description": "Manage your pet's health records, vet appointments, feeding schedules, and more.",
+    "size": 48,
+    "reviews": 41000,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/125/200",
+    "title": "Gamer's Hub Connect",
+    "companyName": "PixelPlay Studios",
+    "id": 125,
+    "description": "Connect with friends, discover new games, and track your gameplay achievements across all platforms.",
+    "size": 85,
+    "reviews": 165000,
+    "ratingAvg": 4.4,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 84000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/126/200",
+    "title": "AutoLog Car Maintenance",
+    "companyName": "GearHead Apps",
+    "id": 126,
+    "description": "Track your car's service history, fuel economy, and get reminders for scheduled maintenance.",
+    "size": 38,
+    "reviews": 55000,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 33000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/127/200",
+    "title": "BookWorm Reader",
+    "companyName": "PageTurn Digital",
+    "id": 127,
+    "description": "A customizable e-reader app supporting all major formats. Access millions of books.",
+    "size": 92,
+    "reviews": 240000,
+    "ratingAvg": 4.7,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 150000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/128/200",
+    "title": "Event Horizon Planner",
+    "companyName": "Gatherly",
+    "id": 128,
+    "description": "Plan any event, from small get-togethers to large conferences, with guest lists, RSVPs, and scheduling tools.",
+    "size": 63,
+    "reviews": 38000,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  }
+]
