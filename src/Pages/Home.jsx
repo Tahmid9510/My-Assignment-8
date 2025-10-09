@@ -9,13 +9,12 @@ import useApps from '../hooks/useApps';
 import LoadingSpinner from '../Components/LoadingSpinner';
 
 const Home = () => {
-    const { apps, loading, error } = useApps()
+    const { apps, loading } = useApps()
     const SliceApps=apps.slice(0, 8)
     
     // console.log(AppsData);
     return (
         <div className='bg-gray-100'>
-            <LoadingSpinner></LoadingSpinner>
             <section className='Banner my-10'>
                 <div className='text-center'>
                     <p className='font-bold text-5xl my-1.5'>We Build</p>
@@ -59,13 +58,22 @@ const Home = () => {
                     <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
                 <div className='Trending-card px-5 '>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto my-9'>
+                    {
+                        loading?<LoadingSpinner></LoadingSpinner>:<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto my-9'>
                         {
                             SliceApps.map(app => (
                                 <TrendingAppsCard key={app.id} app={app}></TrendingAppsCard>
                             ))
                         }
                     </div>
+                    }
+                    {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto my-9'>
+                        {
+                            SliceApps.map(app => (
+                                <TrendingAppsCard key={app.id} app={app}></TrendingAppsCard>
+                            ))
+                        }
+                    </div> */}
                 </div>
             </section>
 

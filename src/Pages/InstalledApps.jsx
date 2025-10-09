@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import iconDownload from '../assets/iconDownloads.png'
 import iconRating from '../assets/iconRatings.png'
+import { ToastContainer, toast } from 'react-toastify';
 
 const InstalledApps = () => {
     const formatDownloads = (num)=>{
@@ -32,6 +33,7 @@ const InstalledApps = () => {
         let updatedList = excitingList.filter(p => p.id !== id)
         setInstalledApp(updatedList)
         localStorage.setItem('InstalledApps', JSON.stringify(updatedList))
+        toast("This App Uninstalled Successfully")
     }
 
     return (
@@ -88,6 +90,7 @@ const InstalledApps = () => {
 
                 }
             </div>
+            <ToastContainer />
         </div>
     );
 };
