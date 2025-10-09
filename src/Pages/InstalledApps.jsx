@@ -49,7 +49,7 @@ const InstalledApps = () => {
                 <div className="">
                     <label className='form-control w-full '>
                         <select className='select select-bordered' value={sortOrder} onChange={e => setSetOrder(e.target.value)}>
-                            <option value="none">Sort by Size</option>
+                            <option value="none">Sort by Download</option>
                             <option value="size-asc">Low-&gt;High</option>
                             <option value="size-desc">High-&gt;Low</option>
                         </select>

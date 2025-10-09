@@ -31,6 +31,7 @@ const AppDetails = () => {
     }
 
     const app = apps.find(p => String(p.id) === id)
+    
     useEffect(() => {
         const installedApps = JSON.parse(localStorage.getItem('InstalledApps')) || [];
         const alreadyInstalled = installedApps.some(a => a.id === app?.id);
