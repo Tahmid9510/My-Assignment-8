@@ -6,14 +6,16 @@ import { Link } from 'react-router';
 import { HiH1 } from 'react-icons/hi2';
 import TrendingAppsCard from '../Components/TrendingAppsCard';
 import useApps from '../hooks/useApps';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 const Home = () => {
     const { apps, loading, error } = useApps()
     const SliceApps=apps.slice(0, 8)
-
+    
     // console.log(AppsData);
     return (
         <div className='bg-gray-100'>
+            <LoadingSpinner></LoadingSpinner>
             <section className='Banner my-10'>
                 <div className='text-center'>
                     <p className='font-bold text-5xl my-1.5'>We Build</p>

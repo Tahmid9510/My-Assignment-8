@@ -5,7 +5,6 @@ import TrendingAppsCard from '../Components/TrendingAppsCard';
 const Apps = () => {
     const { apps } = useApps()
 
-
     const [search, setSearch] = useState('')
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = term ? apps.filter(app => app.title.toLocaleLowerCase().includes(term)) : apps
