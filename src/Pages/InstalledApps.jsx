@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import iconDownload from '../assets/iconDownloads.png'
 import iconRating from '../assets/iconRatings.png'
 import { ToastContainer, toast } from 'react-toastify';
+import useApps from '../hooks/useApps';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 const InstalledApps = () => {
+    const {loading} = useApps();
     const formatDownloads = (num)=>{
         if (num >= 1_000_000) return (num / 1_000_000).toFixed(1) + "M";
         if (num >= 1_000) return (num / 1_000).toFixed(1) + "K";
@@ -56,10 +59,11 @@ const InstalledApps = () => {
                     </label>
                 </div>
             </div>
-            <div>
-
+           {loading?<LoadingSpinner />: <div>
+                
                 {sortedItem.map(a => (
-                    <div className='bg-white  w-full my-3'>
+                    
+                      <div className='bg-white  w-full my-3'>
                         <div className='flex justify-between items-center'>
                             <div className='flex'>
                                 <div className='p-2'><img className='size-24 rounded-xl' src={a.image} alt="" /></div>
@@ -86,10 +90,11 @@ const InstalledApps = () => {
                         </div>
 
                     </div>
+                    
                 ))
 
                 }
-            </div>
+            </div>}
             <ToastContainer />
         </div>
     );
